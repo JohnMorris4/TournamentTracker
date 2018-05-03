@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackerLibrary", "TrackerLibrary\TrackerLibrary.csproj", "{D70204E9-1626-4324-9E7D-D0CEB20926D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackerUI", "TrackerUI\TrackerUI.csproj", "{8E5A86B4-41AE-4E01-BFA8-5C45F4D43078}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D70204E9-1626-4324-9E7D-D0CEB20926D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D70204E9-1626-4324-9E7D-D0CEB20926D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D70204E9-1626-4324-9E7D-D0CEB20926D7}.Debug|ARM.ActiveCfg = Debug|ARM
+		{D70204E9-1626-4324-9E7D-D0CEB20926D7}.Debug|ARM.Build.0 = Debug|ARM
+		{D70204E9-1626-4324-9E7D-D0CEB20926D7}.Debug|x64.ActiveCfg = Debug|x64
+		{D70204E9-1626-4324-9E7D-D0CEB20926D7}.Debug|x64.Build.0 = Debug|x64
+		{D70204E9-1626-4324-9E7D-D0CEB20926D7}.Debug|x86.ActiveCfg = Debug|x86
+		{D70204E9-1626-4324-9E7D-D0CEB20926D7}.Debug|x86.Build.0 = Debug|x86
+		{D70204E9-1626-4324-9E7D-D0CEB20926D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D70204E9-1626-4324-9E7D-D0CEB20926D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D70204E9-1626-4324-9E7D-D0CEB20926D7}.Release|ARM.ActiveCfg = Release|ARM
+		{D70204E9-1626-4324-9E7D-D0CEB20926D7}.Release|ARM.Build.0 = Release|ARM
+		{D70204E9-1626-4324-9E7D-D0CEB20926D7}.Release|x64.ActiveCfg = Release|x64
+		{D70204E9-1626-4324-9E7D-D0CEB20926D7}.Release|x64.Build.0 = Release|x64
+		{D70204E9-1626-4324-9E7D-D0CEB20926D7}.Release|x86.ActiveCfg = Release|x86
+		{D70204E9-1626-4324-9E7D-D0CEB20926D7}.Release|x86.Build.0 = Release|x86
+		{8E5A86B4-41AE-4E01-BFA8-5C45F4D43078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E5A86B4-41AE-4E01-BFA8-5C45F4D43078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E5A86B4-41AE-4E01-BFA8-5C45F4D43078}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{8E5A86B4-41AE-4E01-BFA8-5C45F4D43078}.Debug|ARM.Build.0 = Debug|Any CPU
+		{8E5A86B4-41AE-4E01-BFA8-5C45F4D43078}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8E5A86B4-41AE-4E01-BFA8-5C45F4D43078}.Debug|x64.Build.0 = Debug|Any CPU
+		{8E5A86B4-41AE-4E01-BFA8-5C45F4D43078}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8E5A86B4-41AE-4E01-BFA8-5C45F4D43078}.Debug|x86.Build.0 = Debug|Any CPU
+		{8E5A86B4-41AE-4E01-BFA8-5C45F4D43078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E5A86B4-41AE-4E01-BFA8-5C45F4D43078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E5A86B4-41AE-4E01-BFA8-5C45F4D43078}.Release|ARM.ActiveCfg = Release|Any CPU
+		{8E5A86B4-41AE-4E01-BFA8-5C45F4D43078}.Release|ARM.Build.0 = Release|Any CPU
+		{8E5A86B4-41AE-4E01-BFA8-5C45F4D43078}.Release|x64.ActiveCfg = Release|Any CPU
+		{8E5A86B4-41AE-4E01-BFA8-5C45F4D43078}.Release|x64.Build.0 = Release|Any CPU
+		{8E5A86B4-41AE-4E01-BFA8-5C45F4D43078}.Release|x86.ActiveCfg = Release|Any CPU
+		{8E5A86B4-41AE-4E01-BFA8-5C45F4D43078}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFAA9CB5-22DA-4B45-93C3-A8F5B7728B87}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://johnemorris.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TrackerLibrary\\TrackerLibrary.csproj
+		SccProjectName1 = TrackerLibrary
+		SccLocalPath1 = TrackerLibrary
+		SccProjectUniqueName2 = TrackerUI\\TrackerUI.csproj
+		SccProjectName2 = TrackerUI
+		SccLocalPath2 = TrackerUI
+	EndGlobalSection
+EndGlobal
