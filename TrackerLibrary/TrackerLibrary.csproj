@@ -110,13 +110,7 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="MatchupEntryModel.cs" />
-    <Compile Include="MatchupModel.cs" />
-    <Compile Include="PersonModel.cs" />
-    <Compile Include="PrizeModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TeamModel.cs" />
-    <Compile Include="TournamentModel.cs" />
     <EmbeddedResource Include="Properties\TrackerLibrary.rd.xml" />
   </ItemGroup>
   <ItemGroup>
