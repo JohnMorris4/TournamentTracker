@@ -1,4 +1,4 @@
-﻿namespace TrackerLibrary
+﻿namespace TrackerLibrary.Models
 {
     public class PrizeModel
     {
@@ -29,8 +29,6 @@
 
         public PrizeModel()
         {
-
-
         }
 
         public PrizeModel(string placeName, string placeNumber, string prizeAmount, string prizePercentage)
@@ -50,5 +48,4 @@
             PrizePercentage = prizePercentageValue;
         }
     }
-
 }

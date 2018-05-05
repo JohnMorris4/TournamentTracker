@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TrackerLibrary
+namespace TrackerLibrary.Models
 {
     public class TeamModel
     {
@@ -8,10 +8,10 @@ namespace TrackerLibrary
         /// Creates the list of TeamMembers
         /// </summary>
         public List<PersonModel> TeamMembers { get; set; } = new List<PersonModel>();
+
         /// <summary>
         /// Creates the Team Name
         /// </summary>
         public string TeamName { get; set; }
-
     }
 }
