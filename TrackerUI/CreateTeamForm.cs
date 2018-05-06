@@ -1,11 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using TrackerLibrary;
 using TrackerLibrary.Models;
@@ -14,9 +8,46 @@ namespace TrackerUI
 {
     public partial class CreateTeamForm : Form
     {
+        private List<PersonModel> availableTeamMembers = GlobalConfig.Connection.GetPerson_All();
+        private List<PersonModel> selectedTeamMembers = new List<PersonModel>();
+
+
         public CreateTeamForm()
         {
             InitializeComponent();
+
+            //CreateSampleRecords();
+
+            WireUpList();
+        }
+
+
+
+        private void CreateSampleRecords()
+        {
+            availableTeamMembers.Add(new PersonModel { FirstName = "John", LastName = "Morris" });
+            availableTeamMembers.Add(new PersonModel { FirstName = "James", LastName = "Smith" });
+            availableTeamMembers.Add(new PersonModel { FirstName = "Tom", LastName = "Jones" });
+            availableTeamMembers.Add(new PersonModel { FirstName = "Molly", LastName = "Hatchet" });
+            availableTeamMembers.Add(new PersonModel { FirstName = "Ace", LastName = "Freely" });
+
+            selectedTeamMembers.Add(new PersonModel { FirstName = "Fred", LastName = "TommyBoy" });
+            selectedTeamMembers.Add(new PersonModel { FirstName = "Susan", LastName = "Smith" });
+        }
+
+        private void WireUpList()
+        {
+            selectTeamMemberDropDown.DataSource = null;
+
+            selectTeamMemberDropDown.DataSource = availableTeamMembers;
+            selectTeamMemberDropDown.DisplayMember = "FullName";
+
+            teamMembersListBox.DataSource = null;
+
+            teamMembersListBox.DataSource = selectedTeamMembers;
+            teamMembersListBox.DisplayMember = "FullName";
+
+
         }
 
         private void createMemberButton_Click(object sender, EventArgs e)
@@ -30,7 +61,11 @@ namespace TrackerUI
                 p.EmailAddress = emailValue.Text;
                 p.CellphoneNumber = cellphoneValue.Text;
 
-                GlobalConfig.Connection.CreatePerson(p);
+                p = GlobalConfig.Connection.CreatePerson(p);
+
+                selectedTeamMembers.Add(p);
+
+                WireUpList();
 
                 firstNameValue.Text = "";
                 lastNameValue.Text = "";
@@ -66,6 +101,34 @@ namespace TrackerUI
             }
 
             return true;
+        }
+
+        private void addMemberButton_Click(object sender, EventArgs e)
+        {
+            PersonModel p = (PersonModel)selectTeamMemberDropDown.SelectedItem;
+
+            if (p != null)
+            {
+                availableTeamMembers.Remove(p);
+                selectedTeamMembers.Add(p);
+
+                WireUpList(); 
+            }
+        }
+
+        private void removeSelectedMemberButton_Click(object sender, EventArgs e)
+        {
+            PersonModel p = (PersonModel)teamMembersListBox.SelectedItem;
+
+            if (p != null)
+            {
+                selectedTeamMembers.Remove(p);
+                availableTeamMembers.Add(p);
+
+
+                WireUpList(); 
+            }
+
         }
     }
 }
