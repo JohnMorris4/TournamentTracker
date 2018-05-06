@@ -112,7 +112,7 @@ namespace TrackerUI
                 availableTeamMembers.Remove(p);
                 selectedTeamMembers.Add(p);
 
-                WireUpList(); 
+                WireUpList();
             }
         }
 
@@ -126,8 +126,21 @@ namespace TrackerUI
                 availableTeamMembers.Add(p);
 
 
-                WireUpList(); 
+                WireUpList();
             }
+
+        }
+
+        private void createTeamButton_Click(object sender, EventArgs e)
+        {
+            TeamModel t = new TeamModel();
+
+            t.TeamName = teamNameValue.Text;
+            t.TeamMembers = selectedTeamMembers;
+
+            t = GlobalConfig.Connection.CreateTeam(t);
+
+            //TODO - if not closing form after creation reset form
 
         }
     }
