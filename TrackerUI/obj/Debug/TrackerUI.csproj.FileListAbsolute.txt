@@ -17,3 +17,4 @@ C:\Development\VisualStudio\repos\TournamentTracker\TournamentTracker\TrackerUI\
 C:\Development\VisualStudio\repos\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\Dapper.xml
 C:\Development\VisualStudio\repos\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\TrackerLibrary.dll
 C:\Development\VisualStudio\repos\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\TrackerLibrary.pdb
+C:\Development\VisualStudio\repos\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\TrackerLibrary.dll.config

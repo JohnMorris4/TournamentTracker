@@ -7,3 +7,4 @@ C:\Development\VisualStudio\repos\TournamentTracker\TournamentTracker\Tracker\bi
 C:\Development\VisualStudio\repos\TournamentTracker\TournamentTracker\Tracker\bin\Debug\TrackerLibrary.pdb
 C:\Development\VisualStudio\repos\TournamentTracker\TournamentTracker\Tracker\obj\Debug\TrackerLibrary.dll
 C:\Development\VisualStudio\repos\TournamentTracker\TournamentTracker\Tracker\obj\Debug\TrackerLibrary.pdb
+C:\Development\VisualStudio\repos\TournamentTracker\TournamentTracker\Tracker\bin\Debug\TrackerLibrary.dll.config
