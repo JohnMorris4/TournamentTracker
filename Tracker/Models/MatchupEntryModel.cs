@@ -1,4 +1,5 @@
-﻿namespace TrackerLibrary
+﻿
+namespace TrackerLibrary.Models
 {
     public class MatchupEntryModel
     {
@@ -6,6 +7,7 @@
         /// Represents One team in the matchup.
         /// </summary>
         public TeamModel TeamCompeting { get; set; }
+
         /// <summary>
         /// Represents the SCORE for the team
         /// </summary>
@@ -16,7 +18,5 @@
         ///  this team came from.
         /// </summary>
         public MatchupModel ParentMatchup { get; set; }
-
-
     }
 }
