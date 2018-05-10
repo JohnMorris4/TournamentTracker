@@ -76,7 +76,7 @@
             this.roundLabel.Name = "roundLabel";
             this.roundLabel.Size = new System.Drawing.Size(94, 37);
             this.roundLabel.TabIndex = 2;
-            this.roundLabel.Text = "Round";
+            this.roundLabel.Text = "MatchupRound";
             // 
             // roundDropDown
             // 

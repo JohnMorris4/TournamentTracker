@@ -21,8 +21,8 @@ namespace TrackerLibrary.Models
         public TeamModel Winner { get; set; }
 
         /// <summary>
-        /// Creates the initial Round of play
+        /// Creates the initial MatchupRound of play
         /// </summary>
-        public int Round { get; set; }
+        public int MatchupRound { get; set; }
     }
 }
