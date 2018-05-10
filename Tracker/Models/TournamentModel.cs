@@ -5,6 +5,11 @@ namespace TrackerLibrary.Models
     public class TournamentModel
     {
         /// <summary>
+        /// The unique Identifier for the Tournament
+        /// </summary>
+        public int Id { get; set; }
+
+        /// <summary>
         /// Creates the Initial Tournament Name
         /// </summary>
         public string TournamentName { get; set; }

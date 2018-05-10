@@ -1,7 +1,6 @@
 C:\Development\VisualStudio\repos\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\TrackerUI.exe.config
 C:\Development\VisualStudio\repos\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\TrackerUI.exe
 C:\Development\VisualStudio\repos\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\TrackerUI.pdb
-C:\Development\VisualStudio\repos\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.csprojResolveAssemblyReference.cache
 C:\Development\VisualStudio\repos\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.Properties.Resources.resources
 C:\Development\VisualStudio\repos\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.TournamentViewerForm.resources
 C:\Development\VisualStudio\repos\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.csproj.GenerateResource.cache
@@ -18,3 +17,4 @@ C:\Development\VisualStudio\repos\TournamentTracker\TournamentTracker\TrackerUI\
 C:\Development\VisualStudio\repos\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\TrackerLibrary.dll
 C:\Development\VisualStudio\repos\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\TrackerLibrary.pdb
 C:\Development\VisualStudio\repos\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\TrackerLibrary.dll.config
+C:\Development\VisualStudio\repos\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.csprojAssemblyReference.cache

@@ -2,8 +2,14 @@
 
 namespace TrackerLibrary.Models
 {
+
     public class MatchupModel
     {
+        /// <summary>
+        /// MatchUp Id
+        /// </summary>
+        public int Id { get; set; }
+
         /// <summary>
         /// Setup the Initial Matchup per round of play
         /// </summary>
