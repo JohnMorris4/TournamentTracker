@@ -15,6 +15,11 @@ namespace TrackerLibrary.DataAccess
         private const string MatchupFile = "MatchupModels.csv";
         private const string MatchupEntryFile = "MatchupEntryModels.csv";
 
+        public void CompleteTournament(TournamentModel model)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public PersonModel CreatePerson(PersonModel model)
         {
             List<PersonModel> people = PeopleFile.FullFilePath().LoadFile().ConvertToPersonModels();
@@ -63,7 +68,7 @@ namespace TrackerLibrary.DataAccess
 
         public TeamModel CreateTeam(TeamModel model)
         {
-            List<TeamModel> teams = TeamFile.FullFilePath().LoadFile().ConvertToTeamModels(PeopleFile);
+            List<TeamModel> teams = TeamFile.FullFilePath().LoadFile().ConvertToTeamModels();
 
             int currentId = 1;
 
@@ -86,7 +91,7 @@ namespace TrackerLibrary.DataAccess
             List<TournamentModel> tournaments = TournamentFile
                 .FullFilePath()
                 .LoadFile()
-                .ConvertToTournamentModels(TeamFile, PeopleFile, PrizesFile);
+                .ConvertToTournamentModels();
 
 
             int currentId = 1;
@@ -115,9 +120,35 @@ namespace TrackerLibrary.DataAccess
 
         public List<TeamModel> GetTeam_All()
         {
-            return TeamFile.FullFilePath().LoadFile().ConvertToTeamModels(PeopleFile);
+            return TeamFile.FullFilePath().LoadFile().ConvertToTeamModels();
         }
 
+        public List<TournamentModel> GetTournament_All()
+        {
+            return TournamentFile
+                .FullFilePath()
+                .LoadFile()
+                .ConvertToTournamentModels();
+        }
 
+        public void UpdateMatch(MatchupModel model)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        void IDataConnection.CreatePerson(PersonModel model)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        void IDataConnection.CreatePrize(PrizeModel model)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        void IDataConnection.CreateTeam(TeamModel model)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
