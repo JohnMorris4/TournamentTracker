@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Development\VisualStudio\repos\TournamentTracker\TournamentTracker" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Solution Items" t="Include" />
+      <e p="TextFile1.txt" t="Include" />
+      <e p="TournamentTracker.sln" t="IncludeFlat" />
+      <e p="Tracker" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DataAccess" t="Include">
+          <e p="IDataConnection.cs" t="Include" />
+          <e p="SqlConnector.cs" t="Include" />
+          <e p="TextConnector.cs" t="Include" />
+          <e p="TextConnectorProcessor.cs" t="Include" />
+        </e>
+        <e p="Enums.cs" t="Include" />
+        <e p="GlobalConfig.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="MatchupEntryModel.cs" t="Include" />
+          <e p="MatchupModel.cs" t="Include" />
+          <e p="PersonModel.cs" t="Include" />
+          <e p="PrizeModel.cs" t="Include" />
+          <e p="TeamModel.cs" t="Include" />
+          <e p="TournamentModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="TournamentLogic.cs" t="Include" />
+        <e p="TrackerLibrary.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TrackerUI" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CreatePrizeForm.cs" t="Include" />
+        <e p="CreatePrizeForm.Designer.cs" t="Include" />
+        <e p="CreatePrizeForm.resx" t="Include" />
+        <e p="CreateTeamForm.cs" t="Include" />
+        <e p="CreateTeamForm.Designer.cs" t="Include" />
+        <e p="CreateTeamForm.resx" t="Include" />
+        <e p="CreateTournamentForm.cs" t="Include" />
+        <e p="CreateTournamentForm.Designer.cs" t="Include" />
+        <e p="CreateTournamentForm.resx" t="Include" />
+        <e p="IPrizeRequester.cs" t="Include" />
+        <e p="ITeamRequester.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="TournamentDashboardForm.cs" t="Include" />
+        <e p="TournamentDashboardForm.Designer.cs" t="Include" />
+        <e p="TournamentDashboardForm.resx" t="Include" />
+        <e p="TournamentViewerForm.cs" t="Include" />
+        <e p="TournamentViewerForm.Designer.cs" t="Include" />
+        <e p="TournamentViewerForm.resx" t="Include" />
+        <e p="TrackerUI.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+    <e p="C:\Users\John\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_TournamentTracker.-2081368882.00" t="ExcludeRecursive" />
+  </component>
+</project>
