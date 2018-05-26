@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e6a05779-ddbc-4096-ae97-27b0f35b69ec" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TournamentTracker/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TournamentTracker/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TournamentTracker/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TournamentTracker/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/TournamentTracker/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/TournamentTracker/v15/.suo" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="TournamentDashboardForm.Designer.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TrackerUI/TournamentDashboardForm.Designer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-390">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+              <folding>
+                <marker date="1525422385704" expanded="true" signature="19:7828" ph="{...}" />
+                <marker date="1525422385704" expanded="true" signature="63:7826" ph="{...}" />
+                <marker date="1525422385704" expanded="true" signature="78:154" ph="/// Required designer variable. ... " />
+                <marker date="1525422385704" expanded="true" signature="232:423" ph="/// Clean up any resources being used. ... " />
+                <marker date="1525422385704" expanded="true" signature="479:653" ph="{...}" />
+                <marker date="1525422385704" expanded="true" signature="540:606" ph="{...}" />
+                <marker date="1525422385704" expanded="true" signature="663:7479" ph="Windows Form Designer generated code" />
+                <marker date="1525422385704" expanded="true" signature="717:880" ph="/// Required method for Designer support - do not modify ... " />
+                <marker date="1525422385704" expanded="true" signature="923:7459" ph="{...}" />
+                <marker date="1525422385704" expanded="true" signature="1521:1567" ph="/* headerLabel ... */" />
+                <marker date="1525422385704" expanded="true" signature="2238:2300" ph="/* loadExistingTournamentLabel ... */" />
+                <marker date="1525422385704" expanded="true" signature="3113:3178" ph="/* loadExistingTournamentDropDown ... */" />
+                <marker date="1525422385704" expanded="true" signature="3601:3656" ph="/* loadTournamentButton ... */" />
+                <marker date="1525422385704" expanded="true" signature="4956:5013" ph="/* createTournamentButton ... */" />
+                <marker date="1525422385704" expanded="true" signature="6341:6399" ph="/* TournamentDashboardForm ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TrackerUI/TournamentDashboardForm.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TrackerUI/TournamentDashboardForm.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TrackerUI/TournamentDashboardForm.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TrackerUI/TournamentDashboardForm.Designer.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="72" />
+    <option name="y" value="20" />
+    <option name="width" value="1284" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TournamentTracker (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TournamentTracker (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TrackerLibrary" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TournamentTracker (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TrackerUI" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TournamentTracker (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TrackerUI" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TournamentDashboardForm.cs" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TournamentTracker (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TrackerUI" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TournamentDashboardForm.cs" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TournamentDashboardForm.resx" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6a05779-ddbc-4096-ae97-27b0f35b69ec" name="Default" comment="" />
+      <created>1527091622553</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527091622553</updated>
+      <workItem from="1527091652874" duration="405000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="405000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25396827" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TrackerUI/TournamentDashboardForm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <marker date="1526489984778" expanded="true" signature="6:112" ph="..." />
+            <marker date="1526489984778" expanded="true" signature="133:619" ph="{...}" />
+            <marker date="1526489984778" expanded="true" signature="191:617" ph="{...}" />
+            <marker date="1526489984778" expanded="true" signature="327:409" ph="{...}" />
+            <marker date="1526489984778" expanded="true" signature="445:611" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrackerUI/TournamentDashboardForm.resx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1351" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrackerUI/TournamentDashboardForm.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <marker date="1525422385704" expanded="true" signature="19:7828" ph="{...}" />
+            <marker date="1525422385704" expanded="true" signature="63:7826" ph="{...}" />
+            <marker date="1525422385704" expanded="true" signature="78:154" ph="/// Required designer variable. ... " />
+            <marker date="1525422385704" expanded="true" signature="232:423" ph="/// Clean up any resources being used. ... " />
+            <marker date="1525422385704" expanded="true" signature="479:653" ph="{...}" />
+            <marker date="1525422385704" expanded="true" signature="540:606" ph="{...}" />
+            <marker date="1525422385704" expanded="true" signature="663:7479" ph="Windows Form Designer generated code" />
+            <marker date="1525422385704" expanded="true" signature="717:880" ph="/// Required method for Designer support - do not modify ... " />
+            <marker date="1525422385704" expanded="true" signature="923:7459" ph="{...}" />
+            <marker date="1525422385704" expanded="true" signature="1521:1567" ph="/* headerLabel ... */" />
+            <marker date="1525422385704" expanded="true" signature="2238:2300" ph="/* loadExistingTournamentLabel ... */" />
+            <marker date="1525422385704" expanded="true" signature="3113:3178" ph="/* loadExistingTournamentDropDown ... */" />
+            <marker date="1525422385704" expanded="true" signature="3601:3656" ph="/* loadTournamentButton ... */" />
+            <marker date="1525422385704" expanded="true" signature="4956:5013" ph="/* createTournamentButton ... */" />
+            <marker date="1525422385704" expanded="true" signature="6341:6399" ph="/* TournamentDashboardForm ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

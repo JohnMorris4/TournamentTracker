@@ -9,6 +9,7 @@ namespace TrackerLibrary.DataAccess
 {
     public class SqlConnector : IDataConnection
     {
+        
         private const string db = "Tournaments";
         public PersonModel CreatePerson(PersonModel model)
         {
