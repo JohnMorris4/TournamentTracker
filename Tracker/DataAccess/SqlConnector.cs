@@ -9,9 +9,10 @@ namespace TrackerLibrary.DataAccess
 {
     public class SqlConnector : IDataConnection
     {
-        
+
         private const string db = "Tournaments";
-        public PersonModel CreatePerson(PersonModel model)
+
+        public void CreatePerson(PersonModel model)
         {
             using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString(db)))
             {
@@ -26,7 +27,6 @@ namespace TrackerLibrary.DataAccess
 
                 model.Id = p.Get<int>("@id");
 
-                return model;
             }
         }
 
@@ -36,7 +36,7 @@ namespace TrackerLibrary.DataAccess
         /// </summary>
         /// <param name="model">The prize Information</param>
         /// <returns>The Prize information including the ID</returns>
-        public PrizeModel CreatePrize(PrizeModel model)
+        public void CreatePrize(PrizeModel model)
         {
             using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString(db)))
             {
@@ -51,11 +51,11 @@ namespace TrackerLibrary.DataAccess
 
                 model.Id = p.Get<int>("@id");
 
-                return model;
+
             }
         }
 
-        public TeamModel CreateTeam(TeamModel model)
+        public void CreateTeam(TeamModel model)
         {
             using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString(db)))
             {
@@ -76,7 +76,7 @@ namespace TrackerLibrary.DataAccess
                     connection.Execute("dbo.spTeamMembers_Insert", p, commandType: CommandType.StoredProcedure);
                 }
 
-                return model;
+
             }
         }
 
@@ -92,6 +92,7 @@ namespace TrackerLibrary.DataAccess
 
                 SaveTournamentRounds(connection, model);
 
+                TournamentLogic.UpdateTournamentResults(model);
 
             }
         }
@@ -297,29 +298,45 @@ namespace TrackerLibrary.DataAccess
             return output;
         }
 
-        void IDataConnection.CreatePrize(PrizeModel model)
+        public void UpdateMatchup(MatchupModel model)
         {
-            throw new System.NotImplementedException();
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString(db)))
+            {
+                var p = new DynamicParameters();
+                if (model.Winner != null)
+                {
+                    p.Add("@id", model.Id);
+                    p.Add("@WinnerId", model.Winner.Id);
+
+                    connection.Execute("dbo.spMatchups_Update", p, commandType: CommandType.StoredProcedure);
+                }
+
+                // spMatchupEntries_Update id, TeamCompetingId, Score
+                foreach (MatchupEntryModel me in model.Entries)
+                {
+                    if (me.TeamCompeting != null)
+                    {
+                        p = new DynamicParameters();
+                        p.Add("@id", me.Id);
+                        p.Add("@TeamCompetingId", me.TeamCompeting.Id);
+                        p.Add("@Score", me.Score);
+
+                        connection.Execute("dbo.spMatchupEntries_Update", p, commandType: CommandType.StoredProcedure);
+                    }
+                }
+            }
         }
 
-        void IDataConnection.CreatePerson(PersonModel model)
-        {
-            throw new System.NotImplementedException();
-        }
+        //public void CompleteTournament(TournamentModel model)
+        //{
+        //    using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString(db)))
+        //    {
+        //        var p = new DynamicParameters();
+        //        p.Add("@id", model.Id);
 
-        void IDataConnection.CreateTeam(TeamModel model)
-        {
-            throw new System.NotImplementedException();
-        }
+        //        connection.Execute("dbo.spTournaments_Complete", p, commandType: CommandType.StoredProcedure);
+        //    }
+        //}
 
-        public void UpdateMatch(MatchupModel model)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void CompleteTournament(TournamentModel model)
-        {
-            throw new System.NotImplementedException();
-        }
     }
 }

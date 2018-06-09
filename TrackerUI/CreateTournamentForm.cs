@@ -1,4 +1,4 @@
-﻿using System;
+﻿    using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 using TrackerLibrary;
@@ -38,10 +38,7 @@ namespace TrackerUI
 
         }
 
-        //private void scoreButton_Click(object sender, EventArgs e)
-        //{
 
-        //}
         private void removeSelectedPlayerButton_Click(object sender, EventArgs e)
         {
             TeamModel t = (TeamModel)tournamentTeamsListBox.SelectedItem;
@@ -120,8 +117,9 @@ namespace TrackerUI
         private void createTournamentButton_Click(object sender, EventArgs e)
         {
             decimal fee = 0;
+
             bool feeAcceptable = decimal.TryParse(entryFeeValue.Text, out fee);
-            TournamentModel tm = new TournamentModel();
+
 
             if (!feeAcceptable)
             {
@@ -131,16 +129,25 @@ namespace TrackerUI
                     MessageBoxIcon.Error);
                 return;
             }
+
+            TournamentModel tm = new TournamentModel();
+
             tm.TournamentName = tournamentNameValue.Text;
             tm.EntryFee = fee;
 
             tm.Prizes = selectedPrizes;
             tm.EnteredTeams = selectedTeams;
 
-            //wireup the rounds
             TournamentLogic.CreateRounds(tm);
 
             GlobalConfig.Connection.CreateTournament(tm);
+            
+            TournamentViewerForm frm = new TournamentViewerForm(tm);
+            frm.Show();
+            this.Close();
+
+
+
         }
     }
 }

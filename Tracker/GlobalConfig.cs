@@ -17,26 +17,15 @@ namespace TrackerLibrary
 
         public static void InitializeConnections(DatabaseType dbType)
         {
-            //switch(dbType)
-            //{
-            //    case DatabaseType.Sql:
-            //        break;
-            //    case DatabaseType.TextFile:
-            //        break;
-            //    default:
-            //        break;
-            //}
             if (dbType == DatabaseType.Sql)
             {
-                //TODO - Setup the SQL connection properly
-                SqlConnector sql = new SqlConnector();
-                Connection = sql;
+
+                Connection = new SqlConnector();
             }
             else if (dbType == DatabaseType.TextFile)
             {
-                //TODO - Setup the connection string to the textfiles
-                TextConnector text = new TextConnector();
-                Connection = text;
+
+                Connection = new TextConnector();
             }
         }
 
