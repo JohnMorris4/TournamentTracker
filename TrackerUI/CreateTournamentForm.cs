@@ -1,4 +1,4 @@
-﻿    using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 using TrackerLibrary;
@@ -141,7 +141,9 @@ namespace TrackerUI
             TournamentLogic.CreateRounds(tm);
 
             GlobalConfig.Connection.CreateTournament(tm);
-            
+
+            tm.AlertUsersToNewRound();
+
             TournamentViewerForm frm = new TournamentViewerForm(tm);
             frm.Show();
             this.Close();

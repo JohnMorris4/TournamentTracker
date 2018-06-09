@@ -20,11 +20,18 @@ namespace TrackerUI
 
             tournament = tournamentModel;
 
+            tournament.OnTournamentComplete += Tournament_OnTournamentComplete;
+
             WireUpLists();
 
             LoadFormData();
 
             LoadRounds();
+        }
+
+        private void Tournament_OnTournamentComplete(object sender, DateTime e)
+        {
+            this.Close();
         }
 
         private void LoadFormData()
@@ -62,7 +69,7 @@ namespace TrackerUI
             LoadMatchups(1);
         }
 
-        private void roundDropDown_SelectedIndexChanged(object sender, System.EventArgs e)
+        private void roundDropDown_SelectedIndexChanged(object sender, EventArgs e)
         {
             LoadMatchups((int)roundDropDown.SelectedItem);
         }
@@ -187,7 +194,7 @@ namespace TrackerUI
             return output;
         }
 
-        private void scoreButton_Click(object sender, System.EventArgs e)
+        private void scoreButton_Click(object sender, EventArgs e)
         {
             string errorMessage = ValidateData();
             if (errorMessage.Length > 0)
@@ -243,7 +250,7 @@ namespace TrackerUI
             {
 
                 MessageBox.Show($"The application had the following error... { ex.Message }");
-                return; 
+                return;
             }
             LoadMatchups((int)roundDropDown.SelectedItem);
 
